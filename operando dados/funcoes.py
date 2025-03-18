@@ -43,7 +43,7 @@ def funcao2():
 funcao()  # Imprime 10
 funcao2()  # Imprime 20
 print(variavel_global)  # Imprime 20
-print(variavel_local)  # Gera um erro, a variável não está definida neste escopo
+# print(variavel_local)  Gera um erro, a variável não está definida neste escopo
 
 
 # funcoes definidas pelo usuario
