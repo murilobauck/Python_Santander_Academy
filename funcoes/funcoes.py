@@ -43,4 +43,31 @@ def funcao2():
 funcao()  # Imprime 10
 funcao2()  # Imprime 20
 print(variavel_global)  # Imprime 20
-print(variavel_local)  # Gera um erro, a variável não está definida neste escopo.
+print(variavel_local)  # Gera um erro, a variável não está definida neste escopo
+
+
+# funcoes definidas pelo usuario
+
+def calcular_media(*numeros): # *numeros é um parâmetro de comprimento variável
+    total = sum(numeros)
+    quantidade = len(numeros)
+    media = total / quantidade
+    return media
+
+
+# docstrings
+
+def area_retangulo(base, altura):
+    """
+    Calcula a área de um retângulo.
+
+
+    Args:
+        base (float): A base do retângulo.
+        altura (float): A altura do retângulo.
+
+
+    Returns:
+        float: A área do retângulo.
+    """
+    return base * altura
