@@ -1,11 +1,13 @@
 def saudacao():
     print("Olá, mundo!")
 
+
 saudacao()  # Imprime "Olá, mundo!"
 
 
 def saudacao(nome):
     print(f"Olá, {nome}!")
+
 
 saudacao("João")  # Imprime "Olá, João!"
 saudacao("Maria")  # Imprime "Olá, Maria!"
@@ -13,8 +15,10 @@ saudacao("Maria")  # Imprime "Olá, Maria!"
 
 # valores de retorno
 
+
 def soma(a, b):
     return a + b
+
 
 resultado = soma(3, 4)
 print(resultado)  # Imprime 7
@@ -22,11 +26,12 @@ print(resultado)  # Imprime 7
 
 # labda são funções sem nome definidas em uma única linha. São comumente usadas para funções pequenas e concisas
 
-quadrado = lambda x: x ** 2
+quadrado = lambda x: x**2
 print(quadrado(5))  # Imprime 25
 
 
 # funcoes globais e locais
+
 
 def funcao():
     variavel_local = 10
@@ -48,7 +53,8 @@ print(variavel_global)  # Imprime 20
 
 # funcoes definidas pelo usuario
 
-def calcular_media(*numeros): # *numeros é um parâmetro de comprimento variável
+
+def calcular_media(*numeros):  # *numeros é um parâmetro de comprimento variável
     total = sum(numeros)
     quantidade = len(numeros)
     media = total / quantidade
@@ -56,6 +62,7 @@ def calcular_media(*numeros): # *numeros é um parâmetro de comprimento variáv
 
 
 # docstrings
+
 
 def area_retangulo(base, altura):
     """

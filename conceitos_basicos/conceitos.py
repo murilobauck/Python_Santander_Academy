@@ -7,7 +7,7 @@ a = 1
 b = 2
 c = 3
 
-print ("Olá, Mundo!")
+print("Olá, Mundo!")
 
 # Este é um comentário de uma única linha
 
@@ -33,11 +33,13 @@ else:
 # Posso dar varias instrucoes seguidas com o uso de ;
 
 if condition:
-    instrucao1; instrucao2
+    instrucao1
+    instrucao2
 
 else:
-    instrucao3; instrucao4
+    instrucao3
+    instrucao4
 
-#Os parênteses são utilizados para agrupar expressões, definir funções e realizar chamadas a funções.
+# Os parênteses são utilizados para agrupar expressões, definir funções e realizar chamadas a funções.
 
 resultado = (a + b) * c

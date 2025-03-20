@@ -45,10 +45,10 @@ print(frutas)  # Imprime ["uva", "pera", "maçã"]
 
 # lista de compreensão
 
-'''
+"""
 nova_lista = [expressão for elemento in 3sequência if condição]
-'''
+"""
 
 números = [1, 2, 3, 4, 5]
-quadrados = [x ** 2 for x in números if x % 2 == 0]
+quadrados = [x**2 for x in números if x % 2 == 0]
 print(quadrados)  # Imprime [4, 16]
